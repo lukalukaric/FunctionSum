@@ -69,7 +69,17 @@ namespace FunctionSum
             Console.WriteLine("Converting one-two-seven-four-nine-zero");
             Console.WriteLine(prog.FunctionSum("one-two-seven-four-nine-zero") + "\n");
 
-            
+            Console.WriteLine("Converting zero-one-two-three-four-five-six-seven-eight-nine");
+            Console.WriteLine(prog.FunctionSum("zero-one-two-three-four-five-six-seven-eight-nine") + "\n");
+
+            Console.WriteLine("Converting zero-asd");
+            Console.WriteLine(prog.FunctionSum("zero-asd") + "\n");
+
+            Console.WriteLine("Converting two-two-eight-eight-five-five");
+            Console.WriteLine(prog.FunctionSum("two-two-eight-eight-five-five") + "\n");
+
+            Console.WriteLine("Converting two");
+            Console.WriteLine(prog.FunctionSum("two") + "\n");
         }
     }
 }
